@@ -1,3 +1,7 @@
+
+## First ...
+Thanks to and-viceversa https://github.com/and-viceversa/landsat_L1_qa_tool for the original code which processes level 1 band qa information and the organized overview of the tool. Both were relied on heavily for this repo.
+
 ## Background
 
 Landsat Level 2 scenes come with a quality assessment band (...pixel_qa.tif) that shows various forms of atmospheric and other interference present in the image.
@@ -44,6 +48,3 @@ Among the repos taken down and not re-released are tools for processing Level 2 
 If you use ArcMap (maybe this works with ArcPro too?) you can use https://code.usgs.gov/espa/landsat-qa-arcgis-toolbox for individual files.
 
 Rasterio's Landsat QA tools is [here](https://github.com/mapbox/rio-l8qa). I didn't adapt this repo because it is older.
-
-## Thanks!
-To and-viceversa https://github.com/and-viceversa/landsat_L1_qa_tool for the original code which processes level 1 band qa information.
